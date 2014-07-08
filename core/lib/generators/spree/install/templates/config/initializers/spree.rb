@@ -8,7 +8,7 @@
 Spree.config do |config|
   # Example:
   # Uncomment to override the default site name.
-  # config.site_name = "Spree Demo Site"
+  config.site_name = "Zendrop"
 end
 
 Spree.user_class = <%= (options[:user_class].blank? ? "Spree::LegacyUser" : options[:user_class]).inspect %>
