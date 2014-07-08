@@ -1,0 +1,85 @@
+footer {
+  width: 100%;
+  z-index: 10;
+  background: #404040;
+  padding-top: 35px;
+}
+
+footer h3 {
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+footer li {
+  margin-bottom: 10px;
+}
+
+footer li a {
+  color: #ffffff;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+footer li a:hover {
+  opacity: 1.0;
+  -webkit-transition: opacity 0.2s linear;
+  -moz-transition: opacity 0.2s linear;
+  -ms-transition: opacity 0.2s linear;
+  -o-transition: opacity 0.2s linear;
+  transition: opacity 0.2s linear;
+  color: #45b052;
+}
+
+footer li img {
+  vertical-align: middle;
+  padding-bottom: 2px;
+}
+
+footer li img.twitter {
+  height: 12px;
+}
+
+footer li img.facebook {
+  height: 16px;
+}
+
+footer .footer-links {
+  height: 250px;
+  padding-bottom: 30px;
+}
+
+footer .footer-links > div {
+  width: 16%;
+  float: left;
+  margin-right: 12%;
+  margin-bottom: 28px;
+}
+
+footer .footer-links > div:last-child {
+  margin-right: 0;
+}
+
+footer .copyright {
+  right: 0;
+  left: 0;
+  font-size: 12px;
+  color: #777777;
+  margin: auto;
+  text-align: center;
+  background: #404040;
+  padding-bottom: 20px;
+}
+
+body > footer > div > .footer-links.group > div > ul > li {
+  list-style: none;
+}
+
+body > footer > div > .footer-links.group > div > ul {
+  padding-left: 0px;
+}

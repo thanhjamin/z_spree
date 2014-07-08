@@ -1,0 +1,21 @@
+<nav id="top-nav-bar" class="columns ten">
+  <ul id="nav-bar" class="inline" data-hook>
+    <div style='float:left;'><a href="/">
+      <img src='/assets/zendropWHITE.svg' id='logo-image'>
+      <h2 id='logo'>ZENDROP</h2>
+    </a></div>
+    <li style='float:left; margin-left: 35px;'><%= link_to 'How it Works', '/howitworks' %></li>
+    <li style='float:left;'><%= link_to 'Menu', root_path %></li>
+    <li id="search-bar" data-hook>
+      <%= render :partial => 'spree/shared/search' %>
+    </li>
+    <li id="link-to-cart" data-hook>
+      <noscript>
+        <%= link_to Spree.t(:cart), '/cart' %>
+      </noscript>
+      &nbsp;
+    </li>
+    <script>Spree.fetch_cart()</script>
+  </ul>
+</nav>
+

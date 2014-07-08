@@ -1,0 +1,228 @@
+#signup {
+  height: 1350px;
+  background: url(/assets/sign-in-door.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#signup input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+  width: 100%;
+  border-radius: 4px;
+  padding: 16px 4%;
+  height: 51px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: .15em;
+  border-color: transparent;
+}
+
+#signup input[type='date'] {
+  width: 50%;
+  border-radius: 4px;
+  padding: 16px 4%;
+  height: 51px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: .15em;
+  border-color: transparent;
+  float: right;
+}
+
+.icon-calendar {
+  font-size: 28px;
+}
+
+#login-form form#new_spree_user {
+  background: rgba(240, 240, 240, 0.8);
+  height: 315px;
+  width: 450px;
+  margin: auto;
+}
+
+#medical-form {
+  background: rgba(240, 240, 240, 0.8);
+  height: 670px;
+  width: 450px;
+  margin: 25px auto 25px auto;
+}
+
+#medical-form input:focus {
+  border: transparent;
+}
+
+#signup input[type="submit"] {
+  background: #45b052;
+  color: #ffffff;
+  padding: 1.25em 3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  border-color: transparent;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#edit_user_form input[type="submit"] {
+  background: #45b052;
+  color: #ffffff;
+  padding: 1.25em 3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  border-color: transparent;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#login input[type="submit"] {
+  background: #45b052;
+  color: #ffffff;
+  padding: 1.25em 3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  border-color: transparent;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+#login {
+  height: 900px;
+  background: url(/assets/sign-in-door.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#login form#new_spree_user {
+  background: rgba(240, 240, 240, 0.8);
+  height: 350px;
+  width: 380px;
+  margin: auto;
+}
+
+#edit_user_form {
+  background: #c0c0c0;
+  width: 440px;
+}
+
+#login form#new_spree_user p {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+#login input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  border-radius: 4px;
+  padding: 16px 4%;
+  height: 51px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: .15em;
+  border-color: transparent;
+}
+
+#forgot-password {
+  text-align: center;
+  padding: 0px;
+}
+
+#forgot-password a {
+  text-decoration: underline;
+  color: #404040;
+}
+
+#login #register {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#signup #sign-in {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+#new-customer h1 {
+ text-align:center;
+ color: #ffffff;
+ margin-top: 50px;
+ font-size: 39px;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+
+#existing-customer h1 {
+ text-align:center;
+ color: #ffffff;
+ margin-top: 50px;
+ font-size: 39px;
+ font-weight: 600;
+ margin-bottom: 20px;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+}
+
+.uploadFile {
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 10px 0px 10px 15px;
+  height: 47px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: .15em;
+  border-color: transparent;
+  width: 57%
+  ;
+}
+
+.fileUpload input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  padding: 17px 4%;
+  left: 0;
+}
+
+.fileUpload.btn.btn-primary {
+  background: #E7A130;
+  color: #ffffff;
+  padding: 17px 4%;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.fileUpload.btn.btn-primary:hover {
+  background-color: #DAA130;
+}
+
+#signup #driver_placeholder {
+  width: 290px;
+}

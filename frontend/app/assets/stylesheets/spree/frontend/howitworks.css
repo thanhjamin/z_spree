@@ -1,0 +1,362 @@
+.container {
+  padding-top: 100px;
+}
+
+#howitworks .container {
+  width: 100%;
+  padding-top: 76px;
+}
+
+#howitworks #content {
+  width: 100%;
+  margin: 0px;
+}
+
+footer .footer-links {
+  width: 940px;
+  margin: auto;
+}
+
+#intro {
+  display: table;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  background: url(/assets/seattlesmall.jpg/) no-repeat;
+  background-size: cover;
+}
+
+#landing {
+  background-color: transparent;
+  padding: 0% 7% 0% 7%;
+  border-color: transparent;
+  margin-bottom: 0px;
+  height: 85px;
+}
+
+section {
+  overflow: hidden;
+  display: block;
+  padding-bottom: 50px;
+}
+
+#intro header {
+  text-align: center;
+  color: #ffffff;
+  font-size: 52px;
+  font-weight: 300;
+  display: block;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.33);
+}
+
+.header-content {
+  top: 5.5em;
+}
+
+#intro > div > h3 {
+  color: #404040;
+  font-weight: 500;
+}
+
+#intro > div > .btn-sign-up {
+  background-color: #64ce83;
+  border-color: transparent;
+  margin-right: 0.5em;
+  font-size: 20px;
+}
+
+#intro > div > a > .btn-learn-more {
+  background-color: #aab3bb;
+  border-color: transparent;
+  font-size: 20px;
+}
+
+.row.indented {
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+#why-zendrop {
+  color: #000000;
+  background: -webkit-linear-gradient(top, rgba(255,255,255, 0.35) 0%,rgba(255,255,255, 0.35) 100%), url(/assets/background-leaf.svg);
+  background: -moz-linear-gradient(top, rgba(255,255,255, 0.35) 0%,rgba(255,255,255, 0.35) 100%), url(/assets/background-leaf.svg);
+  background: -o-linear-gradient(top, rgba(255,255,255, 0.35) 0%,rgba(255,255,255, 0.35) 100%), url(/assets/background-leaf.svg);
+  background: -ms-linear-gradient(top, rgba(255,255,255, 0.35) 0%,rgba(255,255,255, 0.35) 100%), url(/assets/background-leaf.svg);
+}
+
+#why-zendrop > .row.indented > .col-sm-6 > p {
+  font-size: 22px;
+  line-height: 30px;
+  color: #404040;
+  margin: 0px 0px 11px 0px;
+  padding: 0px;
+}
+
+#why-zendrop > .row.indented > .col-sm-6 {
+  margin-top: 40px;
+}
+
+#social-media > .row.indented > img {
+  max-width: 75px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+#social-media > .row.indented {
+  width: 500px;
+}
+
+#social-media {
+  padding: 61px 0px 61px 0px;
+}
+
+#how-it-works {
+  min-height: 450px;
+  background-color: #404040;
+}
+
+#how-it-works > .row.indented > .col-sm-3 > img {
+  margin-left: 30%;
+}
+
+#how-it-works > .row.indented > .col-sm-3 {
+  margin-left: 2%;
+}
+
+#landing-page-body #user_email {
+  height: 56px;
+  border: 3px solid black;
+  padding-right: 80px;
+  font-size: 18px;
+  padding-left: 15px;
+}
+
+#user_email:focus {
+  box-shadow: none;
+}
+
+#howitworks h2 {
+  font-weight: 300;
+}
+
+#howitworks h4 {
+  font-weight: 300;
+}
+
+#intro > div.col-sm-5 > img {
+  position: relative;
+  top: 5.5em;
+  width: 75%;
+}
+
+#landing > div > div.navbar-header > a > img {
+  width: 25%;
+  float: left;
+  margin-right: 10px;
+}
+
+.navbar-brand {
+  width: 300px;
+}
+
+#new_user > input.btn.btn-default {
+  margin-left: -89px;
+  position: relative;
+  z-index: 999;
+  border-color: transparent;
+  height: 50px;
+  width: 86px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  line-height: normal;
+  background-color: #45b052;
+  color: #ffffff;
+  text-shadow: 0px 1px #24552A;
+  font-weight: 600;
+}
+
+#how-it-works > div > h2 {
+  color: #ffffff;
+}
+
+#how-it-works > div > div > h4 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 25px;
+  color: #45b052;
+
+}
+
+#how-it-works > div > div > p {
+  color: #ffffff;
+}
+
+#how-it-works > div > div:nth-child(4) > img {
+  height: 104px;
+  width: 120px;
+}
+
+#why-zendrop > div:nth-child(2) > div:nth-child(2) > img {
+  margin-left: 25%;
+}
+
+#why-zendrop > div > div > h2 > strong {
+  color: #45b052;
+}
+
+.greenline {
+  border-bottom: 3px solid #45b052;
+  margin: auto;
+  left: 0;
+  right: 0;
+  width: 150px;
+}
+
+#social-media > div > img:nth-child(5) {
+  margin-left: 50px;
+}
+
+#bottom-email-input {
+  margin-bottom: -25px
+
+}
+
+#bottom-email-input > form > input.btn.btn-default {
+  margin-left: -87px;
+  position: relative;
+  z-index: 999;
+  border-color: transparent;
+  height: 50px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 20px;
+  line-height: normal;
+  background-color: #45b052;
+  color: #ffffff;
+  text-shadow: 0px 1px #24552A;
+  font-weight: 600;
+}
+
+.icon-ok {
+  color: #45b052;
+  font-size: 30px;
+}
+
+.dashed-line {
+  border-bottom: 5px dotted #ffffff;
+  top: 50px;
+  position: relative;
+}
+
+#leave-email {
+  margin-top: 10px;
+}
+
+#bottom-leave-email {
+  margin-top: 10px;
+  height: 28px;
+}
+
+.success-message {
+  color: #45b052;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.close-up {
+  background: url(/assets/close-up.jpg) repeat;
+  width: 100%;
+  height: 15px;
+}
+
+.discretion-tag {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#how-it-works > div > p > em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+#faq-bird-splash {
+  height: 300px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/faq-bird.png) no-repeat center center;
+  background: -moz-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/faq-bird.png) no-repeat center center;
+  background: -o-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/faq-bird.png) no-repeat center center;
+  background: -ms-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/faq-bird.png) no-repeat center center;
+  background-position-y: -200px;
+}
+
+#faq-header {
+  text-shadow:0px 1px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align:center;
+  font-size: 36px;
+  padding-top: 70px;
+  letter-spacing: 6px;
+}
+
+.faq-question {
+  font-weight: 600;
+}
+
+.faq-answer {
+  margin-bottom: 25px;
+}
+
+#about-us-splash {
+  height: 300px;
+  width: 100%;
+  background: -webkit-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/about-us-water.jpg) no-repeat center center;
+  background: -moz-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/about-us-water.jpg) no-repeat center center;
+  background: -o-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/about-us-water.jpg) no-repeat center center;
+  background: -ms-linear-gradient(top, rgba(0,0,0, 0.35) 0%,rgba(0,0,0, 0.35) 100%), url(/assets/about-us-water.jpg) no-repeat center center;
+  background-position-y: -200px;
+  background-size: cover;
+}
+
+#about-us-header {
+  text-shadow:0px 1px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  text-align:center;
+  font-size: 36px;
+  padding-top: 70px;
+  letter-spacing: 6px;
+}
+
+.verify .form-group {
+  background: rgba(240, 240, 240, 1);
+  height: 520px;
+}
+
+.verify em {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.verify .fa {
+  color: #45b052;
+}
+
+.verify input[type="submit"] {
+  background: #45b052;
+  color: #ffffff;
+  padding: 1.25em 3em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  text-align: center;
+  border-color: transparent;
+  font-size: 14px;
+  width: 100%;
+  border-radius: 4px;
+}

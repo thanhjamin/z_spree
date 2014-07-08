@@ -1,0 +1,12 @@
+/*
+* This is a manifest file that includes stylesheets for spree_frontend
+ *= require normalize
+ *= require skeleton
+ *= require spree/frontend/screen
+ *= require spree/frontend/menu
+ *= require spree/frontend/signup
+ *= require spree/frontend/footer
+ *= require spree/frontend/howitworks
+ *= require spree/frontend/datepicker
+
+*/
